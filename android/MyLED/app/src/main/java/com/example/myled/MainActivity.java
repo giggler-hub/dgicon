@@ -19,6 +19,8 @@ import java.lang.reflect.Method;
 import java.net.ConnectException;
 import java.util.UUID;
 
+//안드로이드 스튜디오 실습 자바 코드
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "bluetooth2";
