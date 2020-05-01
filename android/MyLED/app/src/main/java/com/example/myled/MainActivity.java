@@ -28,9 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
     private ConnectedThread mConnectedThread;
 
-    private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
+    private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB"); // 아두이노 블루투스 통신 UUID 설정
 
-    private static String address = "98:D3:31:F5:12:07";
+    private static String address = "98:D3:31:F5:12:07"; //블루투스 인터페이스
 
     /**
      * Called when the activity is first created.
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         btAdapter = BluetoothAdapter.getDefaultAdapter();
         checkBTState();
 
-        Button btn1 = findViewById(R.id.button);
+        Button btn1 = findViewById(R.id.button);  //스마트폰 LED 조작 버튼
         Button btn2 = findViewById(R.id.button2);
         Button btn3 = findViewById(R.id.button3);
         Button btn4 = findViewById(R.id.button4);
